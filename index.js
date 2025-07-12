@@ -1,1 +1,0 @@
-// Homepage - search, featured listings
