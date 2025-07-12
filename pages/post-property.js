@@ -8,7 +8,7 @@ export default function PostProperty() {
       body: JSON.stringify({
         type: 'rent',
         userId: 'test-user-123'
-      })
+      }),
     });
 
     const { id } = await response.json();
@@ -27,4 +27,3 @@ export default function PostProperty() {
     </div>
   );
 }
-
